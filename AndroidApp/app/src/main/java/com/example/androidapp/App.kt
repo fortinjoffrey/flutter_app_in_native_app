@@ -24,6 +24,8 @@ class App : Application() {
             // Instantiate a FlutterEngine
             val flutterEngine = FlutterEngine(context)
 
+            flutterEngine.navigationChannel.setInitialRoute("/")
+
             // Create a general method channel
             MethodChannel(flutterEngine.dartExecutor.binaryMessenger,FLUTTER_METHOD_CHANNEL_ID)
 

@@ -21,21 +21,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="154dp"
-        android:layout_marginTop="250dp"
         android:layout_marginEnd="163dp"
-        android:layout_marginBottom="58dp"
+        android:layout_marginBottom="32dp"
         android:text="Go to flutter main view"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.468"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="159dp"
-        android:layout_marginTop="53dp"
+        android:layout_marginTop="32dp"
         android:layout_marginEnd="158dp"
         android:text="Go to flutter B view"
         app:layout_constraintEnd_toEndOf="parent"
